@@ -24,4 +24,6 @@ func main() {
 	// Você pode imaginar um slice como: tamanho e um ponteiro para um elemento de um array
 	s4 := s2[:1]
 	fmt.Println(s2, s4)
+
+	// o slice aponta para o mesmo espaço do array
 }
